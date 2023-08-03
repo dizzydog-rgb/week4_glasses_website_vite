@@ -1,4 +1,114 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+
+footer{
+  margin-top: 80px;
+  color: #ffffff;
+}
+.contact-us{
+  padding-bottom: 32px;
+  border-bottom: #F2F2F2 solid 1px;
+}
+.footer-menu{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-style: 16px;
+  margin-top: 60px;
+}
+.footer-menu li{
+  margin-right: 48px;
+}
+.phone{
+  justify-content: start;
+  margin-top: 36px;
+  font-size: 36px;
+}
+.mail{
+  justify-content: start;
+  font-size: 36px;
+}
+.sns{
+  margin-top: 48px;
+}
+.sns img{
+  max-width: 48px;
+  margin-left: 32px;
+}
+.copyright{
+  margin-top: 32px;
+  padding-bottom: 32px;
+}
+.statement{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.polocy{
+  font-size: 14px;
+}
+.ml-48{
+  margin-left: 48px;
+}
+.footer .material-symbols-outlined{
+  font-size: 48px;
+  margin-right: 22px;
+}
+@media (max-width:992px){
+  .footer{
+      padding: 0 36px;
+  }
+  .footer .material-symbols-outlined{
+    font-size: 36px;
+  }
+}
+@media (max-width:767px){
+  body{
+      padding: 0 5px;
+  }
+  footer{
+    margin-top: 64px;
+  }
+  .footer{
+      padding: 0 14px;
+  }
+  .footer-menu{
+      display: none;
+  }
+  .contact-us{
+      padding-bottom: 24px;
+  }
+  .phone{
+      margin-top: 24px;
+  }
+  .phone p{
+      font-size: 16px;
+      margin-bottom: 8px;
+  }
+  .mail p{
+      font-size: 16px;
+  }
+  .sns{
+      margin-top: 24px;
+  }
+  .sns img{
+      max-width: 24px;
+      margin-left: 8px;
+  }
+  .footer .material-symbols-outlined{
+      font-size: 24px;
+  }
+  .copyright{
+      flex-wrap: wrap;
+      padding-bottom: 24px;
+      margin-top: 16px;
+  }
+  .statement{
+      margin-bottom: 8px;
+  }
+  .policy{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+  .policy p{
+      font-size: 16px;
+      margin-bottom: 8px;
+      margin-left: 0;
+  }
 }
