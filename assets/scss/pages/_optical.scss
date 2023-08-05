@@ -81,6 +81,9 @@ h3{
         display: flex;
         min-width: 100%;
     }
+    .item-list{
+        padding: 0 36px;
+    }
     .item-list li{
         width: 49%;
         margin-top: 40px;
@@ -113,6 +116,7 @@ h3{
     }
     .item-list{
         margin-top: 24px;
+        padding: 0 14px;
         justify-content: center;
     }
     .item-list li{

@@ -51,6 +51,9 @@ footer{
   margin-right: 22px;
 }
 @media (max-width:992px){
+  footer{
+    padding: 0px 36px;
+  }
   .footer .material-symbols-outlined{
     font-size: 36px;
   }
@@ -58,6 +61,7 @@ footer{
 @media (max-width:767px){
   footer{
     margin-top: 64px;
+    padding: 0px 14px;
   }
   .contact-us .footer-menu{
       display: none;
