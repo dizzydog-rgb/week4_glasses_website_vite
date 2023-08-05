@@ -5,7 +5,6 @@ body{
   font-family: 'Noto Sans TC', sans-serif;
   line-height: 1.5;
   margin: 0 auto;
-  padding: 0 12px;
 }
 img{
     max-width: 100%;
@@ -14,11 +13,11 @@ img{
   }  
 a{
     text-decoration: none;
-    color: #ffffff;
+    color: $white;
 }
 a:visited{
     text-decoration: none;
-    color: #ffffff;
+    color: $white;
 }
 .background-red{
   background: $primary;
@@ -32,8 +31,6 @@ a:visited{
 }
 .container{
   max-width: 1296px;
-  margin-left: 312px;
-  margin-right: 312px;
   margin: 0 auto;
 }
 .d-flex{
@@ -67,7 +64,7 @@ a:visited{
   }
   .menu li{
       width: 50%;
-      border: 1px solid #ffffff;
+      border: 1px solid $white;
       margin: 0 auto;
       justify-content: center;
       padding: 12px 62px;

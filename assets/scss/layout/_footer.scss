@@ -1,7 +1,11 @@
 
 footer{
   margin-top: 80px;
-  color: #ffffff;
+  color: $white;
+}
+.d-flex-start{
+  display: flex;
+  justify-content: start;
 }
 .contact-us{
   padding-bottom: 32px;
@@ -11,14 +15,15 @@ footer{
   font-family: 'Noto Sans TC', sans-serif;
   font-style: 16px;
   margin-top: 60px;
+  margin-bottom: 36px;
 }
 .footer-menu li{
   margin-right: 48px;
 }
-.phone{
+.phone a{
   justify-content: start;
-  margin-top: 36px;
   font-size: 36px;
+  margin-bottom: 8px;
 }
 .mail{
   justify-content: start;
@@ -67,7 +72,7 @@ footer{
   .footer{
       padding: 0 14px;
   }
-  .footer-menu{
+  .contact-us .footer-menu{
       display: none;
   }
   .contact-us{
@@ -76,11 +81,11 @@ footer{
   .phone{
       margin-top: 24px;
   }
-  .phone p{
+  .phone a{
       font-size: 16px;
       margin-bottom: 8px;
   }
-  .mail p{
+  .mail a{
       font-size: 16px;
   }
   .sns{
